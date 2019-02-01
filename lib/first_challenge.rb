@@ -18,6 +18,7 @@ def first_challenge
     data.each do |key, value|
       value.delete_if("strawberry")
     end
+  end
 
 
   #remember to return your newly altered contacts hash!
